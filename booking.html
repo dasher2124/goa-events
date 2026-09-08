@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Book Your Event — Goa Events</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head>
+<body><header><a class="logo" href="index.html">🌴 <span>Goa Events<small>PLAN • CELEBRATE • TOGETHER</small></span></a><nav><a href="index.html">Home</a><a class="active" href="booking.html">Book Your Event</a></nav><a class="btn small" href="booking.html">Book Now</a></header>
+<section class="page-title"><p class="eyebrow">LET'S GET STARTED</p><h1>Book Your <em>Event</em></h1><p>Give us a few details and we'll get back to you about your event in Goa.</p></section>
+<main class="form-wrap"><form id="eventForm">
+<h2>Event details</h2><div class="grid">
+<label>Full Name *<input required name="name" placeholder="Your name"></label>
+<label>Phone Number *<input required name="phone" type="tel" placeholder="+91 98765 43210"></label>
+<label>Email<input name="email" type="email" placeholder="you@example.com"></label>
+<label>Event Type *<select required name="event"><option value="">Select event</option><option>Wedding</option><option>Birthday</option><option>Engagement</option><option>Corporate Event</option><option>Party</option><option>Other</option></select></label>
+<label>Event Date *<input required name="date" type="date"></label>
+<label>Number of Guests *<select required name="guests"><option value="">Select</option><option>Up to 50</option><option>50–100</option><option>100–200</option><option>200–300</option><option>300+</option></select></label>
+<label>Preferred Location<select name="location"><option>Anywhere in Goa</option><option>North Goa</option><option>Panjim</option><option>South Goa</option></select></label>
+<label>Approx. Budget<select name="budget"><option>Not decided</option><option>Under ₹1 lakh</option><option>₹1–3 lakh</option><option>₹3–5 lakh</option><option>₹5–10 lakh</option><option>₹10 lakh+</option></select></label>
+</div>
+<h2>What do you need?</h2><div class="checks">
+<label><input type="checkbox" name="services" value="Venue"> 🏛️ Venue</label>
+<label><input type="checkbox" name="services" value="Catering"> 🍽️ Catering</label>
+<label><input type="checkbox" name="services" value="Decoration"> 🌸 Decoration</label>
+<label><input type="checkbox" name="services" value="Photography"> 📸 Photography</label>
+<label><input type="checkbox" name="services" value="DJ/Entertainment"> 🎵 DJ / Entertainment</label>
+<label><input type="checkbox" name="services" value="Makeup"> 💄 Makeup</label>
+<label><input type="checkbox" name="services" value="Transport"> 🚗 Transport</label>
+<label><input type="checkbox" name="services" value="Other"> ✨ Other</label>
+</div>
+<label>Anything else?<textarea name="message" rows="6" placeholder="Tell us about your event, theme, food preferences, special requirements, etc."></textarea></label>
+<button class="btn submit" type="submit">Send Booking Request →</button>
+<div id="success" class="success" hidden>Thanks! Your request has been recorded on this demo. For real enquiries, connect this form to Google Forms/Sheets before launch.</div>
+</form></main>
+<footer><div class="logo">🌴 <span>Goa Events<small>PLAN • CELEBRATE • TOGETHER</small></span></div><p>© 2026 Goa Events. Initial demo.</p></footer><script src="script.js"></script></body></html>
